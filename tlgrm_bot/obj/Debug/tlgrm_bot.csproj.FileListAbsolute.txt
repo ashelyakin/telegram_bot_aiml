@@ -1,0 +1,12 @@
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\tlgrm_bot.exe.config
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\tlgrm_bot.exe
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\tlgrm_bot.pdb
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\AIMLbot.dll
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\Telegram.Bot.dll
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\Telegram.Bot.xml
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\obj\Debug\tlgrm_bot.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\obj\Debug\tlgrm_bot.csproj.CopyComplete
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\obj\Debug\tlgrm_bot.exe
+C:\Users\andre\Desktop\tlgrm_bot\tlgrm_bot\tlgrm_bot\obj\Debug\tlgrm_bot.pdb

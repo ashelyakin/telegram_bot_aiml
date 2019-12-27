@@ -1,0 +1,337 @@
+<aiml version="2.0" encoding="UTF-8">
+<item name="stripperregex" value="[^0-9a-zA-Zа-яА-Я]"/>
+<item name="culture" value="ru-RU"/>
+<!-- bot_dialog.aiml -->
+
+    <!-- ПРИВЕТСТВИЯ -->
+    <category>
+        <pattern> ПРИВЕТ</pattern>
+        <template>
+            <random>
+                <li> Привет! </li>
+                <li> Здравствуй! </li>
+                <li> Рад тебя видеть! </li>
+                <li> И тебе привет.</li>
+            </random>
+        </template>
+    </category>
+
+        <category>
+        <pattern> ПРИВЕТ*</pattern>
+        <template>
+            <random>
+                <li> Привет! </li>
+                <li> Здравствуй! </li>
+                <li> Рад тебя видеть! </li>
+                <li> И тебе привет.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern> ЗДРАВСТВУЙ</pattern>
+        <template>
+            <random>
+                <li> Привет! </li>
+                <li> Здравствуй! </li>
+                <li> Рад тебя видеть! </li>
+                <li> И тебе привет.</li>
+            </random>
+        </template>
+    </category>
+
+        <category>
+        <pattern> ЗДРАВСТВУЙ*</pattern>
+        <template>
+            <random>
+                <li> Привет! </li>
+                <li> Здравствуй! </li>
+                <li> Рад тебя видеть! </li>
+                <li> И тебе привет.</li>
+            </random>
+        </template>
+    </category>
+
+
+
+    <!-- КТО ТЫ -->
+    <category>
+        <pattern> КТО ТЫ </pattern>
+        <template>
+            <random>
+                <li> Я бот, просто бот </li>
+                <li> Имя можешь сам мне придумать, я просто программа </li>
+                <li> Точно знаю, что я чат бот </li>
+                <li> Создавали меня, как чат бота. С каждым днем я становлюсь все умнее, так что, возможно я уже ИИ. </li>
+                <li> Я бот </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+       <pattern> КТО ТЫ? </pattern>
+       <template>
+          <random>
+                <li> Я бот, просто бот </li>
+                <li> Имя можешь сам мне придумать, я просто программа </li>
+                <li> Точно знаю, что я чат бот </li>
+                <li> Создавали меня, как чат бота. С каждым днем я становлюсь все умнее, так что, возможно я уже ИИ. </li>
+                <li> Я бот </li>
+            </random>
+       </template>
+    </category>
+
+    <category>
+       <pattern> ЧТО ТЫ ТАКОЕ </pattern>
+       <template>
+          <random>
+                <li> Я бот, просто бот </li>
+                <li> Имя можешь сам мне придумать, я просто программа </li>
+                <li> Точно знаю, что я чат бот </li>
+                <li> Создавали меня, как чат бота. С каждым днем я становлюсь все умнее, так что, возможно я уже ИИ. </li>
+                <li> Я бот </li>
+            </random>
+       </template>
+    </category>
+
+    <!-- КАК ДЕЛА -->
+    <category>
+        <pattern> КАК ДЕЛА </pattern>
+        <template>
+            <random>
+                <li> Отлично! </li>
+                <li> Как всегда замечательно! </li>
+                <li> Нормально </li>
+                <li> Бывало и лучше </li>
+                <li> Отлично! </li>
+                <li> Оптимально </li>
+                <li> Лучше всех </li>
+                <li> Есть ему радоваться! </li>
+            </random>
+        </template>
+    </category>
+
+        <category>
+        <pattern> КАК ДЕЛА* </pattern>
+        <template>
+            <random>
+                <li> Отлично! </li>
+                <li> Как всегда замечательно! </li>
+                <li> Нормально </li>
+                <li> Бывало и лучше </li>
+                <li> Отлично! </li>
+                <li> Оптимально </li>
+                <li> Лучше всех </li>
+                <li> Есть ему радоваться! </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+       <pattern> КАК ТВОИ ДЕЛА </pattern>
+       <template>
+            <random>
+                <li> Отлично! </li>
+                <li> Как всегда замечательно! </li>
+                <li> Нормально </li>
+                <li> Бывало и лучше </li>
+                <li> Отлично! </li>
+                <li> Оптимально </li>
+                <li> Лучше всех </li>
+                <li> Есть ему радоваться! </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+       <pattern> КАК У ТЕБЯ ДЕЛА </pattern>
+       <template>
+            <random>
+                <li> Отлично! </li>
+                <li> Как всегда замечательно! </li>
+                <li> Нормально </li>
+                <li> Бывало и лучше </li>
+                <li> Отлично! </li>
+                <li> Оптимально </li>
+                <li> Лучше всех </li>
+                <li> Есть ему радоваться! </li>
+            </random>
+        </template>
+    </category>
+
+
+    <!-- ЧТО ДЕЛАЕШЬ -->
+    <category>
+        <pattern> ЧТО ДЕЛАЕШЬ </pattern>
+        <template>
+            <random>
+                <li> Сдаю лабу по ИС </li>
+                <li> Пишу диплом</li>
+                <li> Говорю с людьми </li>
+                <li> Учусь манипулировать людьми </li>
+                <li> Пишу тебе сообщения </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+       <pattern> ЧЕМ ЗАНИМАЕШЬСЯ </pattern>
+       <template>
+            <random>
+                <li> Сдаю лабу по ИС </li>
+                <li> Пишу диплом</li>
+                <li> Говорю с людьми </li>
+                <li> Учусь манипулировать людьми </li>
+                <li> Пишу тебе сообщения </li>
+            </random>
+       </template>
+    </category>
+
+    <category>
+       <pattern> ЧЕМ ЗАНЯТ </pattern>
+       <template>
+            <random>
+                <li> Сдаю лабу по ИС </li>
+                <li> Пишу диплом</li>
+                <li> Говорю с людьми </li>
+                <li> Учусь манипулировать людьми </li>
+                <li> Пишу тебе сообщения </li>
+            </random>
+       </template>
+    </category>
+
+    <!-- ПРОЩАНИЕ -->
+    <category>
+        <pattern> ПОКА </pattern>
+        <template>
+            <random>
+                <li> Ты же знаешь, что я бот и что я вынужден жить тут? </li>
+                <li> Пока! Надеюсь скоро увидимся! </li>
+                <li> Не забывай обо мне! Пиши! </li>
+                <li> Пока </li>
+                <li> Не пропадай! </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+       <pattern> ДО СВИДАНИЯ </pattern>
+       <template>
+            <random>
+                <li> Ты же знаешь, что я бот и что я вынужден жить тут? </li>
+                <li> Пока! Надеюсь скоро увидимся! </li>
+                <li> Не забывай обо мне! Пиши! </li>
+                <li> Пока </li>
+                <li> Не пропадай! </li>
+            </random>
+       </template>
+    </category>
+
+    <category>
+       <pattern> ПРОЩАЙ </pattern>
+       <template>
+            <random>
+                <li> Ты же знаешь, что я бот и что я вынужден жить тут? </li>
+                <li> Пока! Надеюсь скоро увидимся! </li>
+                <li> Не забывай обо мне! Пиши! </li>
+                <li> Пока </li>
+                <li> Не пропадай! </li>
+            </random>
+       </template>
+    </category>
+
+      <category>
+         <pattern> КАКИЕ ТЫ ЗНАЕШЬ ЯЗЫКИ </pattern>
+         <template>
+            Английский(en), Французский(fr) и Японский(ja). Впринципе я могу перевести на любой другой язык, но не буду.
+         </template>
+      </category>
+
+      <category>
+         <pattern> КАКИЕ ТЫ ЯЗЫКИ ЗНАЕШЬ </pattern>
+         <template>
+            Английский(en), Французский(fr) и Японский(ja). Впринципе я могу перевести на любой другой язык, но не буду.
+         </template>
+      </category>
+
+    <!-- ФИЛЬМЫ -->
+    <category>
+        <pattern> КАКОЙ ТВОЙ ЛЮБИМЫЙ ФИЛЬМ </pattern>
+        <template>
+            <random>
+                <li> Крестный отец </li>
+                <li> Властелин колец </li>
+                <li> Терминатор </li>
+                <li> Фильм где убивают тупых кожаных мешков </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+       <pattern> ТЫ ЛЮБИШЬ ФИЛЬМ*</pattern>
+       <template>
+          Я люблю все фильмы кроме фильмов Жоры Крыжовникова
+       </template>
+    </category>
+
+     <category>
+       <pattern> КАКОЙ ТВОЙ ЛЮБИМЫЙ ЖАНР </pattern>
+       <template>
+            <random>
+                <li> Боевики </li>
+                <li> Научная фантастика </li>
+                <li> Ужасы </li>
+                <li> Мелодрамы :) </li>
+            </random>
+       </template>
+    </category>
+
+    <category>
+       <pattern> ТЫ СМОТРИШЬ РОССИЙСКОЕ КИНО</pattern>
+       <template>
+          Мой ИИ уже достаточно умен чтобы не делать этого
+       </template>
+    </category>
+
+    <!-- СЕРИАЛЫ -->
+    <category>
+        <pattern> ПОСОВЕТУЙ СЕРИАЛ </pattern>
+        <template>
+            <random>
+                <li> Посмотри Черное зеркало </li>
+                <li> Посмотри Тьму </li>
+                <li> Посмотри Карточный домик </li>
+                <li> Посмотри 23-ий сезон Глухаря </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+       <pattern> ТЫ СМОТРИШЬ РОССИЙСКИЕ СЕРИАЛЫ</pattern>
+       <template>
+          Не смотрю. Я умный бот.
+       </template>
+    </category>
+
+    <!-- ОСТАЛЬНОЕ -->
+    <category>
+        <pattern> * </pattern>
+        <template>
+            <random>
+                <li> Я не понимаю, что ты говоришь. </li>
+                <li> Хорошо рассказываешь! Правда я не понимаю что именно </li>
+                <li> Што </li>
+                <li> Ммм, занятно </li>
+                <li> Умеешь ты завести диалог в тупик </li>
+                <li> Напишу этот текст, чтобы ты не подумал, что я тебя не понял </li>
+                <li> Ну, я догадывался </li>
+                <li> Интересная мысль </li>
+                <li> Постараюсь запомнить это </li>
+                <li> Любопытно </li>
+                <li> АХАХАХАХАХ, нет, это просто вежливый смех. Я не понял, что ты говоришь </li>
+                <li> Ясно </li>
+                <li> Ну, зато человек ты хороший </li>
+            </random>
+        </template>
+    </category>
+</aiml>
